@@ -1,14 +1,12 @@
-"use client"
+"use client";
 
 export default function Start() {
     return (
         <div className="min-h-screen bg-white">
             {/* Top header */}
             <header className="flex flex-col md:flex-row justify-between items-center px-4 py-3 md:px-8 md:py-4">
-                <div className="flex items-center mb-2 md:mb-0">
-                   
-                </div>
-                <div className="flex items-center text-gray-700 text-sm md:text-base">
+                <div className="flex items-center mb-2 md:mb-0"></div>
+                <div className="flex items-center text-gray-900 font-semibold text-sm md:text-base">
                     <span className="mr-2">📞</span>
                     <span className="text-xs md:text-base">Need help? Call (415) 523 8837</span>
                 </div>
@@ -18,9 +16,7 @@ export default function Start() {
             <main className="max-w-3xl mx-auto px-3 md:px-4 pt-4 md:pt-8 text-center">
                 {/* Avatar */}
                 <div className="flex justify-center mb-4 md:mb-8">
-                    <div className="w-16 h-16 md:w-24 md:h-24 rounded-full overflow-hidden">
-                       
-                    </div>
+                    <div className="w-16 h-16 md:w-24 md:h-24 rounded-full overflow-hidden"></div>
                 </div>
 
                 {/* Welcome text */}
@@ -66,4 +62,3 @@ export default function Start() {
         </div>
     );
 }
-              
