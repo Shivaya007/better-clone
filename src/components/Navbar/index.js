@@ -53,7 +53,7 @@ export default function Navbar() {
         <div
           className={`${
             isMenuOpen ? 'block' : 'hidden'
-          } md:hidden pb-4 transition-all duration-200 ease-in-out`}
+          } md:hidden pb-4 bg-white transition-all duration-200 ease-in-out`}
         >
           <div className="flex flex-col space-y-4">
             <Link
