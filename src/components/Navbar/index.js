@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from 'next/link';
 import { useState } from 'react';
@@ -12,22 +12,22 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="font-bold text-xl">Better Clone</Link>
+            <Link href="/" className="font-bold text-xl text-white">Better Clone</Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link href="/" className="hover:text-green-600 transition-colors duration-200">Home</Link>
-            <Link href="/About-us" className="hover:text-green-600 transition-colors duration-200">About Us</Link>
-            <Link href="/mortage-calculator" className="hover:text-green-600 transition-colors duration-200">Calculator</Link>
-            <Link href="/Start" className="hover:text-green-600 transition-colors duration-200">Get Started</Link>
+            <Link href="/" className="hover:text-green-600 transition-colors duration-200 text-white">Home</Link>
+            <Link href="/About-us" className="hover:text-green-600 transition-colors duration-200 text-white">About Us</Link>
+            <Link href="/mortage-calculator" className="hover:text-green-600 transition-colors duration-200 text-white">Calculator</Link>
+            <Link href="/Start" className="hover:text-green-600 transition-colors duration-200 text-white">Get Started</Link>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 focus:outline-none"
+              className="p-2 focus:outline-none text-white"
               aria-label="Toggle menu"
             >
               <svg
@@ -55,31 +55,31 @@ export default function Navbar() {
             isMenuOpen ? 'block' : 'hidden'
           } md:hidden pb-4 bg-white transition-all duration-200 ease-in-out`}
         >
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 px-4">
             <Link
               href="/"
-              className="text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
+              className="text-green-600 font-bold transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/About-us"
-              className="text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
+              className="text-green-600 font-bold transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               href="/mortage-calculator"
-              className=" text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
+              className="text-green-600 font-bold transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Calculator
             </Link>
             <Link
               href="/Start"
-              className=" text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
+              className="text-green-600 font-bold transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Get Started
@@ -90,3 +90,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
