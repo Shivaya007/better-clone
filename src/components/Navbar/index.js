@@ -58,28 +58,28 @@ export default function Navbar() {
           <div className="flex flex-col space-y-4">
             <Link
               href="/"
-              className="hover:text-green-600 transition-colors duration-200 py-2"
+              className="text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/About-us"
-              className="hover:text-green-600 transition-colors duration-200 py-2"
+              className="text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               href="/mortage-calculator"
-              className="hover:text-green-600 transition-colors duration-200 py-2"
+              className=" text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Calculator
             </Link>
             <Link
               href="/Start"
-              className="hover:text-green-600 transition-colors duration-200 py-2"
+              className=" text-black-600 hover:text-green-600 transition-colors duration-200 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Get Started
