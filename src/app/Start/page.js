@@ -3,7 +3,7 @@
 export default function Start() {
     return (
         <div className="min-h-screen bg-white">
-            {/* Top header */}
+    
             <header className="sticky top-0 bg-white z-10 flex flex-col sm:flex-row justify-between items-center px-3 py-2 sm:px-8 sm:py-4 border-b">
                 <div className="flex items-center mb-1 sm:mb-0">
                 </div>
@@ -13,15 +13,15 @@ export default function Start() {
                 </div>
             </header>
 
-            {/* Main content */}
+
             <main className="max-w-3xl mx-auto px-4 pt-6 sm:pt-8 md:pt-12 text-center">
-                {/* Avatar */}
+
                 <div className="flex justify-center mb-4 sm:mb-6 md:mb-8">
                     <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gray-200">
                     </div>
                 </div>
 
-                {/* Welcome text */}
+                
                 <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold mb-2 sm:mb-3 md:mb-4 text-gray-900 !important">
                     Hi, I'm Betsy!
                 </h1>
@@ -29,7 +29,7 @@ export default function Start() {
                     What can I help you with?
                 </h2>
 
-                {/* Options */}
+        
                 <div className="space-y-3 sm:space-y-4">
                     {[
                         { icon: "🏠", text: "Buying a home" },
@@ -50,7 +50,7 @@ export default function Start() {
                     ))}
                 </div>
 
-                {/* Stats */}
+                
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12 mt-8 sm:mt-12 md:mt-16 px-4">
                     <div className="text-center p-4 rounded-lg bg-gray-50">
                         <div className="text-xl sm:text-2xl md:text-4xl font-bold text-gray-900">$100B</div>

@@ -10,14 +10,14 @@ export default function Navbar() {
     <nav className="bg-green-500 shadow-md fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          {/* Logo and Desktop Navigation grouped together */}
+      
           <div className="flex items-center space-x-6">
             {/* Logo */}
             <Link href="/" className="font-bold text-xl text-gray-800">
               Better Clone
             </Link>
             
-            {/* Desktop Navigation - Now next to logo */}
+      
             <div className="flex items-center space-x-6">
               <Link href="/" className="hover:text-gray-800 transition-colors duration-200 text-gray-700">
                 Home
@@ -31,9 +31,9 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Get Started button and Mobile Menu Button */}
+          
           <div className="flex items-center space-x-4">
-            {/* Get Started - Always on right */}
+        
             <Link 
               href="/Start" 
               className="hidden md:block hover:text-gray-800 transition-colors duration-200 text-gray-700"
@@ -41,7 +41,7 @@ export default function Navbar() {
               Get Started
             </Link>
 
-            {/* Mobile Menu Button */}
+            
             <div className="md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}

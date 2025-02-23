@@ -10,14 +10,14 @@ export default function StartNavbar() {
         <nav className="bg-green-800 shadow-md fixed w-full top-0 z-50">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    {/* Logo */}
+                
                     <div className="flex items-center">
                         <Link href="/" className="font-bold text-xl text-white">
                             Different Navbar
                         </Link>
                     </div>
 
-                    {/* Desktop Navigation */}
+        
                     <div className="hidden md:flex items-center space-x-6">
                         <Link href="/" className="text-white hover:text-green-200 transition-colors duration-200">
                             Back to Home
@@ -30,7 +30,7 @@ export default function StartNavbar() {
                         </Link>
                     </div>
 
-                    {/* Mobile Menu Button */}
+        
                     <div className="md:hidden">
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -56,7 +56,7 @@ export default function StartNavbar() {
                     </div>
                 </div>
 
-                {/* Mobile Menu */}
+            
                 <div
                     className={`${
                         isMenuOpen ? 'block' : 'hidden'

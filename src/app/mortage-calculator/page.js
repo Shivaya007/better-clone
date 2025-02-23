@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function MortgageCalculator() {
   const [monthlyPayment, setMonthlyPayment] = useState(2000);
-  const homePrice = Math.round(monthlyPayment * 140); // Approximate formula
+  const homePrice = Math.round(monthlyPayment * 140);
   const downPayment = Math.round(homePrice * 0.2);
 
   const handleSliderChange = (e) => {
