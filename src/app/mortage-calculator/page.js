@@ -42,7 +42,7 @@ export default function MortgageCalculator() {
             step="50"
             value={monthlyPayment}
             onChange={handleSliderChange}
-            className="w-full mt-2"
+            className="w-full mt-2 accent-green-600"
           />
         </div>
 
