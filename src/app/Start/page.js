@@ -22,10 +22,10 @@ export default function Start() {
                 </div>
 
                 {/* Welcome text */}
-                <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold mb-2 sm:mb-3 md:mb-4 text-gray-900">
+                <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold mb-2 sm:mb-3 md:mb-4 text-gray-900 !important">
                     Hi, I'm Betsy!
                 </h1>
-                <h2 className="text-lg sm:text-xl md:text-3xl mb-4 sm:mb-6 md:mb-8 text-gray-800">
+                <h2 className="text-lg sm:text-xl md:text-3xl mb-4 sm:mb-6 md:mb-8 text-gray-800 !important">
                     What can I help you with?
                 </h2>
 
